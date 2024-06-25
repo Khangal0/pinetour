@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+.circle {
+  background-color: black;
+  color: green;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 25px 0px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+.map {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+.price-card {
+  background-color: gray;
+  padding: 40px;
+  border-radius: 24px;
+  border: 2px solid black;
+  color: black;
+}
+.price-card:hover {
+  border: 3px solid green;
+}
+
+.price-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
